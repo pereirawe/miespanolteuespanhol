@@ -1,13 +1,20 @@
-  <footer class="p-5">
-    <a href="https://www.instagram.com/collagenelixir4u/" target="_blank">
-      <i class="fab fa-instagram fa-2x p-2"></i>
-    </a>
-    <a href="https://www.facebook.com/#" target="_blank">
-      <i class="fab fa-facebook fa-2x p-2"></i>
-    </a>
-    <a href="https://web.whatsapp.com/send?phone=5541988652963" target="_blank">
-      <i class="fab fa-whatsapp fa-2x p-2"></i>
-    </a>
+  <footer>
+
+    <div id="social-icons"  class="p-5">
+      <a href="https://www.instagram.com/miespanolteuespanhol/" target="_blank">
+        <i class="fab fa-instagram fa-2x p-2"></i>
+      </a>
+      <a href="https://www.facebook.com/miespanolteuespanhol" target="_blank">
+        <i class="fab fa-facebook fa-2x p-2"></i>
+      </a>
+      <a href="https://web.whatsapp.com/send?phone=5519994882123" target="_blank">
+        <i class="fab fa-whatsapp fa-2x p-2"></i>
+      </a>
+    </div>
+
+    <div id="copyright" class="centered p-5">
+    © 2020 Mi español - Teu espanhol. Todos los derechos reservados.
+    </div>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

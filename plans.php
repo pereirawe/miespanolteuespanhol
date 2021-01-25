@@ -55,7 +55,7 @@
   <?php
     include_once './views/header.php';
     include_once './views/navbar.php';
-    include_once './views/home.php';
+    include_once './views/plans.php';
     include_once './views/footer.php';
   ?>
 

@@ -1,12 +1,12 @@
 version: "3.2"
 services:
 
-    collagenelixir4u:
+    miespanolteuespanhol:
         image: pereirawe/codetomika:php7.3-apache
-        container_name: collagenelixir4u-app
+        container_name: miespanolteuespanhol-app
         privileged: true
         ports:
-            - 8011:80
+            - 8013:80
         volumes:
             - ./:/var/www/html
         networks:

@@ -1,0 +1,41 @@
+#home-section-1{
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(52, 29,47,0);
+    color: $light-color;
+
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, rgba(52, 29,47,.95) , rgba(52, 29,47,1) ), url('../../../images/home/home-combo-bk.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    h1, h4{
+        color: $secondary-color;
+        font-weight: bold;
+    }
+
+    .combo-img{
+        height: 225px;
+        width: 225px;
+        background-size: cover;
+        margin-right: auto;
+        margin-left: auto;
+        background-position: center center;
+        border-radius: 100%;
+
+    }
+
+    #combo-img-1{
+        background-image: url('../../../images/home/home-combo1.jpg');
+    }
+    #combo-img-2{
+        background-image: url('../../../images/home/home-combo2.jpg');
+    }
+    #combo-img-3{
+        background-image: url('../../../images/home/home-combo3.jpg');
+    }
+    #combo-img-4{
+        background-image: url('../../../images/home/home-combo4.jpg');
+    }
+}

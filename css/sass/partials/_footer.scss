@@ -1,7 +1,16 @@
 footer{
-    background-color: $secondary-color;
-    color: $light-color;
-    text-align: center;
+    
+    #social-icons{
+        background-color: $secondary-color;
+        text-align: center;
+        color: $light-color;
+    }
+
+    #copyright{
+        background-color: $dark-color;
+        text-align: center;
+        color: $light-color;
+    }
 
     a{
         color: $light-color;

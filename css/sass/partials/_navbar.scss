@@ -1,0 +1,12 @@
+#navbar{
+    background-color: $primary-color;
+    .nav-item{
+        a{
+            color: $light-color;
+            font-weight: bold;
+        }
+        a:hover{
+            color: $third-color;
+        }
+    }
+}
