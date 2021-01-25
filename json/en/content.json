@@ -1,0 +1,149 @@
+{
+    "lang" : "en",
+    "title" : "UFitYa",
+    "description" : "Creativity and solutions for your business",
+    "keywords" : "development, websites, creativity, design, social, marketing, publicidade",
+
+    "instagram": "https://www.instagram.com/codetomika/",
+    "facebook": "https://www.facebook.com/codetomika",
+    "twitter": "https://twitter.com/codetomika",
+    "telefone" : "+5541988652963",
+    
+    "banner" : {
+        "title_1" : "Creativity and solutions for your business",
+        "title_2" : "Your presence on the Internet is a strong and clear sign that you are done",
+        "title_3" : "Real progress is what makes technology available to everyone"
+    },
+
+    "whoWeAre" : {
+        "title" : "Who we are?",
+        "text_1" : "We are a team that focuses on creativity, quality, innovation and greater transparency and reliability in our business relationships.",
+        "text_2" : "Since 2011, we develop businesses internationally, creating websites, developing applications and providing support, maintenance and updates for them, and positioning brands on the internet.",
+        "text_3" : "As part of our services, our team is responsible for diagnosing, analyzing, managing and monitoring digital communication strategies on social networks and optimizing all our products for search engine (SEO), with a focus on effectively increasing the community around brands."
+    },
+    "vission" : {
+        "title" : "Vission",
+        "text" : "Expand our business relationships in Latin America and the United States, providing our clients with a wide range of digital technology solutions."
+    },
+
+    "development": {
+        "title" : "Development"
+    },
+
+    "mission" : {
+        "title" : "Mission",
+        "text" : "Offer products and technological solutions of quality to all our business partners, providing satisfaction and confidence in all the centers."
+    },
+
+    "services" : {
+        "title" : "Services",
+        "development": {
+            "title" : "Development",
+            "detail" : [{
+                    "service" :"Landing Pages.",
+                    "description" : "Ideal for SMEs that need to professionally present their service portfolios on the Internet.",
+                    "icon" : "/images/icons/landing-pages.svg"
+                },
+                {
+                    "service" :"Blogs.",
+                    "description" : "For companies that generate content as a product or as part of their digital strategy to generate traffic.",
+                    "icon" : "/images/icons/blogs.svg"
+                },
+                {
+                    "service" :"E-Commerce.",
+                    "description" : "Online stores with integrated payment platform and SEO.",
+                    "icon" : "/images/icons/e-commerce.svg"
+                },
+                {
+                    "service" :"Custom apps.",
+                    "description" : "Solutions developed based on the specific needs of companies that need to automate and manage information systems as part of their activity.",
+                    "icon" : "/images/icons/apps.svg"
+                },
+                {
+                    "service" :"Support and maintenance of databases.",
+                    "description" : "Database creation, backup, cleaning, debugging and updating.",
+                    "icon" : "/images/icons/support.svg"
+                },
+                {
+                    "service" :"SEO optimization.",
+                    "description" : "Adaptation of content and code to better detect search engines to increase positioning on the internet.",
+                    "icon" : "/images/icons/seo.svg"
+                },
+                {
+                    "service" :"Visual update of websites.",
+                    "description" : "Website redesign and reconstruction to update its performance and visual quality.",
+                    "icon" : "/images/icons/update-apps.svg"
+                }
+            ]
+        },
+
+        "social": {
+            "title" : "Social Media",
+            "detail" : [
+                {
+                    "service" :"Diagnosis.",
+                    "description" : "",
+                    "icon" : "/images/icons/diagnosis.svg"
+                },
+                {
+                    "service" :"Creation of digital communication strategies.",
+                    "description" : "When creating a brand identity, it is very important to create a prior diagnosis of the impact and reach on social networks.",
+                    "icon" : "/images/icons/creation.svg"
+                },
+                {
+                    "service" :"Social media management.",
+                    "description" : "Make publications following a strategy, agendas, on various social networks, adapting the content of your brand.",
+                    "icon" : "/images/icons/media-managements.svg"
+                },
+                {
+                    "service" :"Traffic reports and content engagement.",
+                    "description" : "A powerful social media community takes advantage of its presence and credibility, recognizing it and seeing its behavior, will give you a clear advantage in satisfying your customers.",
+                    "icon" : "/images/icons/reports.svg"
+                },
+                {
+                    "service" :"Paid advertising campaigns.",
+                    "description" : "A publicidade paga pode ser a maneira mais rápida de aumentar sua comunidade nas redes sociais. Esse investimento deve valer a pena.",
+                    "icon" : "/images/icons/campains.svg"
+                }
+            ]
+        },
+
+        "creativity": {
+            "title" : "Creativity",
+            "detail" : [
+                {
+                    "service" :"Image identity and concepts.",
+                    "description" : "",
+                    "icon" : "/images/icons/indetity.svg"
+                },
+                {
+                    "service" :"Design of pieces for social networks.",
+                    "description" : "",
+                    "icon" : "/images/icons/social-media.svg"
+                },
+                {
+                    "service" :"Audiovisual production.",
+                    "description" : "",
+                    "icon" : "/images/icons/production.svg"
+                },
+                {
+                    "service" :"Photography.",
+                    "description" : "",
+                    "icon" : "/images/icons/photo.svg"
+                },
+                {
+                    "service" :"UX / UI.",
+                    "description" : "",
+                    "icon" : "/images/icons/ui-ux.svg"
+                }
+            ]
+        }
+    },
+
+    "contacts" : {
+        "title" : "Contact us",
+        "text_1" : "We want to get in touch to start Glowing Now!",
+        "text_2" : "You count on us..."
+    }
+   
+}

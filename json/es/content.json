@@ -1,0 +1,149 @@
+{
+    "lang" : "es",
+    "title" : "UFitYa",
+    "description" : "Creatividad y soluciones para su negocio",
+    "keywords" : "desenvolvimento, websites, creatividade, desenhos, social midia, marketing, publicidade",
+
+    "instagram": "https://www.instagram.com/codetomika/",
+    "facebook": "https://www.facebook.com/codetomika",
+    "twitter": "https://twitter.com/codetomika",
+    "telefone" : "+5541988652963",
+
+    "banner" : {
+        "title_1" : "Creatividad y socluciones para tu negocio",
+        "title_2" : "Sua presença na Internet é um sinal forte e claro de que você está feito",
+        "title_3" : "Progresso real é o que torna a tecnologia disponível para todos"
+    },
+
+    "whoWeAre" : {
+        "title" : "Quienes somos?",
+        "text_1" : "Somos un equipo que apuesta a la creatividad, la calidad, la innovación y a la transparencia y confiabilidad en nuestras relaciones comerciales.",
+        "text_2" : "Desde 2011, desarrollamos negocios a nivel internacional, creando sitios web, desarrollando aplicaciones y brindando soporte, mantenimiento y actualizaciones para ellos, y posicionando marcas en Internet.",
+        "text_3" : "Como parte de nuestros servicios, nuestro equipo es responsable de diagnosticar, analizar, administrar y monitorear las estrategias de comunicación digital en las redes sociales y optimizar todos nuestros productos para motores de búsqueda (SEO), con un enfoque en aumentar efectivamente la comunidad en torno a las marcas."
+    },
+    "vission" : {
+        "title" : "Visión",
+        "text" : "Expandir nuestras relaciones comerciales en América Latina y los Estados Unidos, brindando a nuestros clientes una amplia gama de soluciones de tecnología digital."
+    },
+
+    "development": {
+        "title" : "Desarrollo"
+    },
+
+    "mission" : {
+        "title" : "Misión",
+        "text" : "Ofrecer productos de calidad y soluciones tecnológicas a nuestros socios comerciales, proporcionando satisfacción y confianza en todos los escenarios."
+    },
+
+    "services" : {
+        "title" : "Servicios",
+        "development": {
+            "title" : "Desarrollo",
+            "detail" : [{
+                    "service" :"Landing Pages.",
+                    "description" : "Ideal para PyMEs que necesitan presentar profesionalmente sus carteras de servicios en Internet.",
+                    "icon" : "/images/icons/landing-pages.svg"
+                },
+                {
+                    "service" :"Blogs.",
+                    "description" : "Para empresas que generan contenido como producto o como parte de su estrategia digital para generar tráfico.",
+                    "icon" : "/images/icons/blogs.svg"
+                },
+                {
+                    "service" :"E-Commerce.",
+                    "description" : "Tiendas online con plataforma de pago integrada y SEO.",
+                    "icon" : "/images/icons/e-commerce.svg"
+                },
+                {
+                    "service" :"Aplicaciones personalizadas.",
+                    "description" : "Soluciones desarrolladas en base a las necesidades específicas de las empresas que necesitan automatizar y gestionar sistemas de información como parte de su actividad.",
+                    "icon" : "/images/icons/apps.svg"
+                },
+                {
+                    "service" :"Soporte y mantenimiento de bases dados.",
+                    "description" : "Creación, respaldo, limpieza, depuración y actualización de bases de datos.",
+                    "icon" : "/images/icons/support.svg"
+                },
+                {
+                    "service" :"Optimización SEO.",
+                    "description" : "Adaptación de contenido y código para detectar mejor los buscadores para incrementar el posicionamiento en internet.",
+                    "icon" : "/images/icons/seo.svg"
+                },
+                {
+                    "service" :"Actualización visual de sitios web.",
+                    "description" : "Rediseño y reconstrucción de sitios web para actualizar su desempeño y calidad visual.",
+                    "icon" : "/images/icons/update-apps.svg"
+                }
+            ]
+        },
+
+        "social": {
+            "title" : "Social Media",
+            "detail" : [
+                {
+                    "service" :"Diagnóstico.",
+                    "description" : "A la hora de crear una identidad de marca, es muy importante crear un diagnóstico previo del impacto y alcance en las redes sociales.",
+                    "icon" : "/images/icons/diagnosis.svg"
+                },
+                {
+                    "service" :"Creación de estrategias de comunicación digital..",
+                    "description" : "Desarrollo de un plan de acción en redes sociales personalizado, adaptable y medible para optimizar tu imagen.",
+                    "icon" : "/images/icons/creation.svg"
+                },
+                {
+                    "service" :"Gestión de redes sociales.",
+                    "description" : "Fazer publicações seguindo uma estratégia, agendas, em várias redes sociais, adaptando o conteúdo da sua marca.",
+                    "icon" : "/images/icons/media-managements.svg"
+                },
+                {
+                    "service" :"Informes de tráfico y participación de contenido.",
+                    "description" : "Una poderosa comunidad de redes sociales aprovecha su presencia y credibilidad, reconocerla y ver su comportamiento, te dará una clara ventaja en la satisfacción de tus clientes.",
+                    "icon" : "/images/icons/reports.svg"
+                },
+                {
+                    "service" :"Campañas publicitarias pagas.",
+                    "description" : "Una poderosa comunidad de redes sociales aprovecha su presencia y credibilidad, reconocerla y ver su comportamiento, te dará una clara ventaja en la satisfacción de tus clientes.",
+                    "icon" : "/images/icons/campains.svg"
+                }
+            ]
+        },
+
+        "creativity": {
+            "title" : "Creatividad",
+            "detail" : [
+                {
+                    "service" :"Identidad de imagen y conceptos.",
+                    "description" : "",
+                    "icon" : "/images/icons/indetity.svg"
+                },
+                {
+                    "service" :"Diseño de piezas para redes sociales..",
+                    "description" : "",
+                    "icon" : "/images/icons/social-media.svg"
+                },
+                {
+                    "service" :"Producción audiovisual.",
+                    "description" : "",
+                    "icon" : "/images/icons/production.svg"
+                },
+                {
+                    "service" :"Fotografía.",
+                    "description" : "",
+                    "icon" : "/images/icons/photo.svg"
+                },
+                {
+                    "service" :"UX / UI.",
+                    "description" : "",
+                    "icon" : "/images/icons/ui-ux.svg"
+                }
+            ]
+        }
+    },
+
+    "contacts" : {
+        "title" : "Contactanos",
+        "text_1" : "Queremos entrar en contacto para comenzar tu cambio Ya!",
+        "text_2" : ""
+    }
+
+}

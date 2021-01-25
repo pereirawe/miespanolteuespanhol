@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans&display=swap');
+
+body{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #303030;
+}
+
+h1,h2,h3{
+    font-family: 'DM Serif Display', serif;
+}
+
+h4{
+    color: #00778B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-primary{
+    background-color: #00778B;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}

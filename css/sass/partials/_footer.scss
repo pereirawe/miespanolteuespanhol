@@ -1,0 +1,13 @@
+footer{
+    background-color: $secondary-color;
+    color: $light-color;
+    text-align: center;
+
+    a{
+        color: $light-color;
+    }
+    a:hover{
+        color: $primary-color;
+        text-decoration: none;
+    }
+}

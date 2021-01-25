@@ -1,0 +1,17 @@
+version: "3.2"
+services:
+
+    collagenelixir4u:
+        image: pereirawe/codetomika:php7.3-apache
+        container_name: collagenelixir4u-app
+        privileged: true
+        ports:
+            - 8011:80
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - internal
+
+networks:
+    internal:
+        driver: bridge

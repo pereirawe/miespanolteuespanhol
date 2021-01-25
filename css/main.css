@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans&display=swap");
+.centered {
+  text-align: center;
+}
+
+body {
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #303030;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Serif Display', serif;
+}
+
+h4 {
+  color: #00778B;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #00778B;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#header {
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#header a {
+  font-family: 'DM Serif Display', serif;
+  color: #303030;
+}
+
+#contacts {
+  background-color: #8D6A54;
+  min-height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(#897475)), url("/images/banner5.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #897475), url("/images/banner5.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#contacts .col-md-8 {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#order {
+  background-color: #8D6A54;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0)), to(#897475)), url("../images/banner/banner5.jpg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #897475), url("../images/banner/banner5.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#order .col-md-8 {
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+          box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+}
+
+#order #orderForm h2 {
+  margin-top: 10px;
+}
+
+#order #orderForm .form-group label {
+  font-size: small;
+}
+
+footer {
+  background-color: #8D6A54;
+  color: #FCEEF0;
+  text-align: center;
+}
+
+footer a {
+  color: #FCEEF0;
+}
+
+footer a:hover {
+  color: #BC9E93;
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */
