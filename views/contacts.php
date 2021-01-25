@@ -27,28 +27,52 @@
             <h2 class="">Reserve aula online</h2>
             <h4>Deixe-nos saber em qual programa você está interessado que lhe enviaremos maiores detalhes.</h4>
           </div>
-          <form id="contactForm" action="mailer.php" method="POST" class="pb-5">
+          <form id="contactForm" action="mailer.php" method="POST" class="py-5">
+
             <div class="form-group">
+              <label for="plan"><small>Plano que deseja</small></label>
+              <select class="form-control" id="plan" name="plan">
+                <option>Aula individual</option>
+                <option>Aula do grupo</option>
+                <option>Programa de pratica</option>
+                <option>Aula de Graça</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="name"><small>Nome e Sobrenome</small></label>
               <input type="text" class="form-control" id="name" name="name" required>
-              <label for="name"><small>Name and Lastname</small></label>
             </div>
 
             <div class="form-group">
-              <input type="email" class="form-control" id="email" name="email" required>
               <label for="email"><small>Email</small></label>
+              <input type="email" class="form-control" id="email" name="email" required>
             </div>
 
             <div class="form-group">
+              <label for="phone"><small>Telefone</small></label>
               <input type="number" class="form-control" id="phone" name="phone" required>
-              <label for="phone"><small>Phone</small></label>
             </div>
 
             <div class="form-group">
-              <label for="message"><h4>Message</h4></label>
+              <label for="country"><small>País</small></label>
+              <select class="form-control" id="country" name="country">
+                <option>Argentina</option>
+                <option>Brasil</option>
+                <option>Chile</option>
+                <option>Ecuador</option>
+                <option>Mexico</option>
+                <option>Peru</option>
+                <option>Venezuela</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message"><small>Message</small></label>
               <textarea class="form-control" id="message" name="message" rows="3"></textarea>
             </div>
             <script src="https://www.google.com/recaptcha/api.js"></script>
-            <div class="g-recaptcha" data-sitekey="6LdYuzMaAAAAACp_npRyxcQLVANK2dfKBxp4j1zy" data-callback="enableBtn">
+            <div class="g-recaptcha" data-sitekey="6LegLjwaAAAAADZQFqpIKzwTtIB29rRqUZADPkM3" data-callback="enableBtn">
             </div>
             <button id="submitBtn" type="submit" class="btn btn-danger float-right" disabled>Send</button>
           </form>

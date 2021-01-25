@@ -33,7 +33,7 @@
         </div>
 
         <div class="col-md-12">
-            <a href="./" class="btn btn-primary">Ver os planos!</a>
+            <a href="./plans.php" class="btn btn-primary">Ver os planos!</a>
         </div>
     </div>
 </div>
