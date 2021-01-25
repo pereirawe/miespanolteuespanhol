@@ -18,8 +18,8 @@
                 $response =[];
 
                 $email = [];
-                $email['from'] = 'pereirawe@gmail.com';
-                $email['to'][] = 'pereirawe@gmail.com';
+                $email['from'] = 'miespanoltuespanol@gmail.com';
+                $email['to'][] = 'miespanoltuespanol@gmail.com';
 
                 $email['subject'] = 'Miespanolteuespanhol.com | Message from ' .$data->name;
 
@@ -31,15 +31,15 @@
                 
                 $email['message'] = '<div id="message">
                     <h2>'.$data->name.'</h2><hr>
+                    <p><b>Plan: </b>'.$data->plan.'</p>
                     <p><b>Email: </b>'.$data->email.'</p>
-                    <p><b>Phone: </b>'.$data->phone.'</p><hr>
+                    <p><b>Telefone: </b>'.$data->phone.'</p>
+                    <p><b>País: </b>'.$data->country.'</p><hr>
                     <h2>Message:</h2>
                     <p>'.$data->message.'</p>
                     <hr>
                     <p><small>From: '.$UserIP.'</small></p>
                 </div>';
-
-                // print_r($email); die;
 
                 mail( $email['to'][0], $email['subject'], $email['message'], $email['headers']);
 
