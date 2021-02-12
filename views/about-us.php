@@ -16,33 +16,32 @@
             </div>
         </div>
     </div>
-    <div class="container centered">
+    <div id="founders" class="container centered">
         <div class="row">
-            <div class="col-md-6" style="display: flex;align-items: center;">
+            <div class="col-md-12 py-5">
+                <h1><?= $content->aboutUs['founder_title'] ?></h1>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
                 <div>
-                    <h2><?= $content->aboutUs['founders'][0]['title'] ?></h2>
-                    <h1><?= $content->aboutUs['founders'][0]['name'] ?></h1>
+                    <img src="../images/about-us/alejandro.jpg" alt="Alejandro Tovar" width="100%">
+                    <small><?= $content->aboutUs['founders'][0]['title'] ?></small>
+                    <h2><?= $content->aboutUs['founders'][0]['name'] ?></h2>
                     <hr>
                     <p><?= $content->aboutUs['founders'][0]['bio'] ?></p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="../images/about-us/alejandro.jpg" alt="Alejandro Tovar" width="100%">
-            </div>
-            <div class="col-md-12 py-2">
-                <hr>
-            </div>
-            <div class="col-md-6">
-                <img src="../images/about-us/claudio.jpg" alt="Alejandro Tovar" width="100%">
-            </div>
-            <div class="col-md-6" style="display: flex;align-items: center;">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
                 <div>
-                    <h2><?= $content->aboutUs['founders'][1]['title'] ?></h2>
-                    <h1><?= $content->aboutUs['founders'][1]['name'] ?></h1>
+                    <img src="../images/about-us/claudio.jpg" alt="Alejandro Tovar" width="100%">
+                    <small><?= $content->aboutUs['founders'][1]['title'] ?></small>
+                    <h2><?= $content->aboutUs['founders'][1]['name'] ?></h2>
                     <hr>
                     <p><?= $content->aboutUs['founders'][1]['bio'] ?></p>
                 </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 </div>

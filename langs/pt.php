@@ -9,6 +9,8 @@ class content_pt
     public $home;
     public $aboutUs;
     public $plans;
+    public $promotions;
+    public $contacts;
 
     function __construct()
     {
@@ -47,6 +49,7 @@ class content_pt
             'p2_2' => 'Inovar na forma de aprender utilizando diferentes técnicas, metodologias e ferramentas materiais e tecnológicas, inovando o deficiente processo de aprendizagem tradicional.',
             'h2_3' => 'Visão',
             'p2_3' => 'Nossa motivação é mudar vidas e criar oportunidades por meio do poder de aprender um novo idioma.',
+            'founder_title' => 'Nossos fundadores',
             'founders' => [
                 [
                     'title' => 'CO-FUNDADOR, PRES. EXECUTIVO CEO',
@@ -62,5 +65,10 @@ class content_pt
         ];
 
         $this->plans = [];
+
+        $this->promotions = [];
+
+        $this->contacts = [];
+
     }
 }

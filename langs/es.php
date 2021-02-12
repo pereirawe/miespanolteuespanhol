@@ -7,6 +7,10 @@ class content_es
     public $copyright = 'Todos los derechos reservados.';
     public $nav;
     public $home;
+    public $aboutUs;
+    public $plans;
+    public $promotions;
+    public $contacts;
 
     function __construct()
     {
@@ -45,6 +49,7 @@ class content_es
             'p2_2' => 'Innovar en la forma de aprender utilizando diferentes técnicas, metodología y herramientas materiales y tecnológicas, innovando el proceso de aprendizaje tradicional defectuoso.',
             'h2_3' => 'Visión',
             'p2_3' => 'Nuestra motivación es cambiar vidas y crear oportunidades a través del poder de aprender un nuevo idioma.',
+            'founder_title' => 'Nuestros fundadores',
             'founders' => [
                 [
                     'title' => 'CO-FUNDADOR, PRES. EJECUTIVO CEO',
@@ -58,5 +63,12 @@ class content_es
                 ],
             ],
         ];
+
+        $this->plans = [];
+
+        $this->promotions = [];
+
+        $this->contacts = [];
+
     }
 }
