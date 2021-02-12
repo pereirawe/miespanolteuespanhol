@@ -13,7 +13,7 @@
     </div>
 
     <div id="copyright" class="centered p-5">
-    © 2020 Mi español - Teu espanhol. Todos los derechos reservados.
+    © 2020 <?= $content->title ?>. <?= $content->copyright ?>
     </div>
   </footer>
 
