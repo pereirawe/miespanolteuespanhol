@@ -36,7 +36,7 @@ class content_es
             'p3_2'=> '¿Te gustaría aprender español y portugués exclusivamente?. ¡Tenemos esta opción para ti! Aproveche esta oportunidad para aprender rápidamente el segundo idioma más hablado del mundo.',
         ];
 
-        $this->aboutus =[
+        $this->aboutUs =[
             'p1_1' => 'Vamos a presentarnos',
             'h1_1' => 'ACERCA DE MI ESPAÑOL TEU ESPAÑOL',
             'h2_1' => 'Quienes somos',
