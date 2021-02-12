@@ -30,7 +30,7 @@ class content_es
             'p2_3' => 'Para un aprendizaje más personal.',
             'h4_4' => 'Programa de Prática',
             'p2_4' => 'Lo mejor para practicar tu español.',
-            'btn_1' => 'Ver os planos!',
+            'btn_1' => '¡Ver los planes!!',
             'h1_2' => '¡Siempre tenemos promociones!',
             'p3_1'=> 'La experiencia nos hace crecer en todos los aspectos de nuestra vida, pensando en eso Mi español - Teu espanhol cuenta con profesores dinámicos y divertidos para darte la mejor experiencia en el aprendizaje del idioma portugués.',
             'p3_2'=> '¿Te gustaría aprender español y portugués exclusivamente?. ¡Tenemos esta opción para ti! Aproveche esta oportunidad para aprender rápidamente el segundo idioma más hablado del mundo.',
