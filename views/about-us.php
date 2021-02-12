@@ -2,61 +2,47 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 centered py-5">
-                <p>Vamos a presentarnos</p>
-                <h1>ACERCA DE MI ESPAÑOL TEU ESPAÑOL</h1>
+                <p><?= $content->aboutUs['p1_1'] ?></p>
+                <h1><?= $content->aboutUs['h1_1'] ?></h1>
             </div>
-
             <div class="col-md-12">
-                <h2>Quienes somos</h2>
-                <p>Somos una empresa especializada en idiomas. Ministrando con excelencia y experiencia nativa en métodos innovadores de aprendizaje personalizado.</p>
-
-                <h2>Misión</h2>
-                <p>Innovar en la forma de aprender utilizando diferentes técnicas, metodología y herramientas materiales y tecnológicas, innovando el proceso de aprendizaje tradicional defectuoso.</p>
-
-                <h2>Vista</h2>
-                <p>Nuestra motivación es cambiar vidas y crear oportunidades a través del poder de aprender un nuevo idioma.</p>
-
+                <h2><?= $content->aboutUs['h2_1'] ?></h2>
+                <p><?= $content->aboutUs['p2_1'] ?></p>
+                <h2><?= $content->aboutUs['h2_2'] ?></h2>
+                <p><?= $content->aboutUs['p2_2'] ?></p>
+                <h2><?= $content->aboutUs['h2_3'] ?></h2>
+                <p><?= $content->aboutUs['p2_3'] ?></p>
                 <hr>
             </div>
-
         </div>
     </div>
-
     <div class="container centered">
         <div class="row">
             <div class="col-md-6" style="display: flex;align-items: center;">
-                <div >
-                    <h2>CO-FUNDADOR, PRES. EXECUTIVO CEO</h2>
-                    <h1>ALEJANDRO TOVAR</h1>
+                <div>
+                    <h2><?= $content->aboutUs['founders'][0]['title'] ?></h2>
+                    <h1><?= $content->aboutUs['founders'][0]['name'] ?></h1>
                     <hr>
-                    <p>Uma relação com a idea de ensinar a língua espanhola é poder tornar a língua conhecida. Nascido na Venezuela, onde se desenvolveu como administrador e se especializou em marketing digital, onde poderia ter a oportunidade de participar de grandes projetos empresariais e educacionais em diferentes países.</p>
-
+                    <p><?= $content->aboutUs['founders'][0]['bio'] ?></p>
                 </div>
             </div>
             <div class="col-md-6">
                 <img src="../images/about-us/alejandro.jpg" alt="Alejandro Tovar" width="100%">
             </div>
-            
             <div class="col-md-12 py-2">
                 <hr>
             </div>
-
             <div class="col-md-6">
                 <img src="../images/about-us/claudio.jpg" alt="Alejandro Tovar" width="100%">
             </div>
-
-            
             <div class="col-md-6" style="display: flex;align-items: center;">
                 <div>
-                    <h2>CO-FUNDADOR, DIRETOR GERAL DE FINANÇAS</h2>
-                    <h1>CLAUDIO FERMINO</h1>
+                    <h2><?= $content->aboutUs['founders'][1]['title'] ?></h2>
+                    <h1><?= $content->aboutUs['founders'][1]['name'] ?></h1>
                     <hr>
-                    <p>Seu primeiro encontro com o espanhol foi muito jovem, desde que ele teve contato com países latinos, o que o ajudou a se desenvolver na área de ensino, sempre com uma visão para o futuro.</p>
+                    <p><?= $content->aboutUs['founders'][1]['bio'] ?></p>
                 </div>
             </div>
-            
         </div>
     </div>
-
-
 </div>

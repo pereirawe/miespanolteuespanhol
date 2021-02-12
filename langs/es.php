@@ -30,11 +30,33 @@ class content_es
             'p2_3' => 'Para un aprendizaje más personal.',
             'h4_4' => 'Programa de Prática',
             'p2_4' => 'Lo mejor para practicar tu español.',
-            'btn_1' => '¡Ver los planes!!',
+            'btn_1' => '¡Ver los planes!',
             'h1_2' => '¡Siempre tenemos promociones!',
             'p3_1'=> 'La experiencia nos hace crecer en todos los aspectos de nuestra vida, pensando en eso Mi español - Teu espanhol cuenta con profesores dinámicos y divertidos para darte la mejor experiencia en el aprendizaje del idioma portugués.',
             'p3_2'=> '¿Te gustaría aprender español y portugués exclusivamente?. ¡Tenemos esta opción para ti! Aproveche esta oportunidad para aprender rápidamente el segundo idioma más hablado del mundo.',
         ];
 
+        $this->aboutus =[
+            'p1_1' => 'Vamos a presentarnos',
+            'h1_1' => 'ACERCA DE MI ESPAÑOL TEU ESPAÑOL',
+            'h2_1' => 'Quienes somos',
+            'p2_1' => 'Somos una empresa especializada en idiomas. Ministrando con excelencia y experiencia nativa en métodos innovadores de aprendizaje personalizado.',
+            'h2_2' => 'Misión',
+            'p2_2' => 'Innovar en la forma de aprender utilizando diferentes técnicas, metodología y herramientas materiales y tecnológicas, innovando el proceso de aprendizaje tradicional defectuoso.',
+            'h2_3' => 'Visión',
+            'p2_3' => 'Nuestra motivación es cambiar vidas y crear oportunidades a través del poder de aprender un nuevo idioma.',
+            'founders' => [
+                [
+                    'title' => 'CO-FUNDADOR, PRES. EJECUTIVO CEO',
+                    'name' => 'ALEJANDRO TOVAR',
+                    'bio' => 'Una relación con la idea de enseñar el idioma español es poder dar a conocer el idioma. Nacido en Venezuela, donde se desarrolló como administrador y se especializó en marketing digital, donde pudo tener la oportunidad de participar en grandes proyectos empresariales y educativos en diferentes países.'
+                ],
+                [
+                    'title' => 'CO-FUNDADOR, DIRECTOR GENERAL DE FINANZAS',
+                    'name' => 'CLAUDIO FERMINO',
+                    'bio' => 'Su primer encuentro con el español fue muy joven, ya que tuvo contacto con países latinos, lo que le ayudó a desarrollarse en el área de la educación, siempre con visión de futuro.'
+                ],
+            ],
+        ];
     }
 }
