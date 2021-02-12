@@ -5,19 +5,19 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav mr-auto ml-auto">
         <li class="nav-item">
-            <a class="nav-link" href="./"><?= $content->nav['home'] ?></a>
+            <a class="nav-link" href="./<?= $langURLGet ?>"><?= $content->nav['home'] ?></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./about-us.php"><?= $content->nav['about-us'] ?></a>
+            <a class="nav-link" href="./about-us.php<?= $langURLGet ?>"><?= $content->nav['about-us'] ?></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./plans.php"><?= $content->nav['plans'] ?></a>
+            <a class="nav-link" href="./plans.php<?= $langURLGet ?>"><?= $content->nav['plans'] ?></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./promotions.php"><?= $content->nav['promotions'] ?></a>
+            <a class="nav-link" href="./promotions.php<?= $langURLGet ?>"><?= $content->nav['promotions'] ?></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./contacts.php"><?= $content->nav['contacts'] ?></a>
+            <a class="nav-link" href="./contacts.php<?= $langURLGet ?>"><?= $content->nav['contacts'] ?></a>
         </li>
     </ul>
   </div>

@@ -33,7 +33,7 @@
         </div>
 
         <div class="col-md-12">
-            <a href="./plans.php" class="btn btn-primary"><?= $content->home['btn_1'] ?></a>
+            <a href="./plans.php<?= $langURLGet ?>" class="btn btn-primary"><?= $content->home['btn_1'] ?></a>
         </div>
     </div>
 </div>
