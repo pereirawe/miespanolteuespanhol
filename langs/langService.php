@@ -13,3 +13,7 @@ require_once "./langs/" . $lang . ".php";
 $langContent = 'content_' . $lang;
 $langURLGet = "?lang=" . $lang;
 $content = new $langContent();
+
+$subtitle = str_replace('.php','',$_SERVER['PHP_SELF']);
+$subtitle = str_replace('/','',$subtitle);
+$content->subtitle = $content->nav[$subtitle];
