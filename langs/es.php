@@ -64,9 +64,80 @@ class content_es
             ],
         ];
 
-        $this->plans = [];
+        $this->plans = [
+            'plan_1' => [
+                'title'=> 'CLASE INDIVIDUAL',
+                'text' => 'Esta es la mejor solución para las personas a las que les gusta aprender de forma privada. A su propio ritmo y adaptado a sus necesidades específicas, incluye:',
+                'content' =>[
+                    'Manual con audio y ejercicios para cada nivel.',
+                    'Lecciones dinámicas personalizadas (online o físicas).',
+                    'Material personalizado.',
+                    'Asistencia en línea personalizada instantánea (práctica y preguntas).',
+                    'Maestros nativos.',
+                    'Certificación nacional e internacional por niveles.',
+                ],
+            ],
+            'plan_2' => [
+                'title'=> 'CLASE GRUPALES',
+                'text' => 'Un plan hecho para personas a las que les gusta la personalización, pero que pueden compartir su aprendizaje con otros y sus logros con otros. (1-6) Máximo de personas.',
+                'content' => [
+                    'Manual con audio y ejercicios para cada nivel.',
+                    'Lecciones dinámicas personalizadas (online o físicas).',
+                    'Material personalizado.',
+                    'Asistencia en línea personalizada instantánea (práctica y preguntas).',
+                    'Maestros nativos.',
+                    'Certificación nacional e internacional por niveles.',
+                ],
+            ],
+            'plan_3' => [
+                'title'=> 'CLASES DE PRÁCTICA',
+                'text' => 'Ideal para personas que aprendieron hace mucho tiempo y quieren mejorar su español y portugues de forma natural.',
+                'content' => [
+                    'Conversaciones con nativos.',
+                    'Prácticas Escritas.',
+                    'Asistencia en línea personalizada instantánea (práctica y preguntas).',
+                    'Maestros nativos.',
+                    'Certificación Nacional e Internacional.',
+                ],
+            ],
+            'plan_4' => [
+                'title'=> 'EMPRESARIAL',
+                'text' => '',
+                'content' => [
+                    'Vocabulario específico de su sector.',
+                    'Dominio del texto técnico.',
+                    'Escribe cartas y correos electrónicos técnicos.',
+                    'Negociación y debate.',
+                    'Conoce las normas sociales y aduaneras de los países latinos.',
+                    'Certificación Nacional e Internacional.',
+                ],
+            ],
+        ];
 
-        $this->promotions = [];
+        $this->promotions = [
+            'promotion_1' => [
+                'text' => 'Sempre dando o melhor para você com as opções mais adequadas sala de aula em grupo no máximo 3-6 alunos com um tempo de 2 horas por semana, o custo a ser pago é por mês e inclui:' ,
+                'content' => [
+                    'Manual de exercícios e áudios para cada nível, desde o nível básico(A1) ao avançado(C2).',
+                    'Aulas dinâmicas personalizadas (online).',
+                    'Material personalizado.',
+                    'Assistencia Online personalizada instantanêa (Via Whatsapp ou outras redes sociais).',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional por níveis.',
+                ],
+            ],
+            'promotion_2' => [
+                'text' => 'Você gostaria de aprender espanhol e portugués exclusivamente?. Temos essa opção para você !! Aproveite esta oportunidade para aprender rápidamente a segunda língua mais falada no mundo.' ,
+                'content' => [
+                    'Manual de exercícios e áudios para cada nível, desde o nível básico(A1) ao avançado(C2).',
+                    'Aulas dinâmicas personalizadas (online).',
+                    'Material personalizado.',
+                    'Assistência Online personalizada instantánea (Via Whatsapp ou outras redes sociais).',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional por níveis.',
+                ],
+            ]
+        ];
 
         $this->contacts = [];
 

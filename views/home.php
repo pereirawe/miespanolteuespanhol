@@ -12,28 +12,36 @@
         <div class="col-md-2"></div>
 
         <div class="col-md-3">
-            <div class="combo-img mb-3" id="combo-img-1"></div>
+            <a href="./plans.php<?= $langURLGet ?>#plan_4">
+                <div class="combo-img mb-3" id="combo-img-1"></div>
+            </a>
             <h4><?= $content->home['h4_1'] ?></h4>
             <p><?= $content->home['p2_1'] ?></p>
         </div>
         <div class="col-md-3">
-            <div class="combo-img mb-3" id="combo-img-2"></div>
+            <a href="./plans.php<?= $langURLGet ?>#plan_2">
+                <div class="combo-img mb-3" id="combo-img-2"></div>
+            </a>
             <h4><?= $content->home['h4_2'] ?></h4>
             <p><?= $content->home['p2_2'] ?></p>
         </div>
         <div class="col-md-3">
-            <div class="combo-img mb-3" id="combo-img-3"></div>
+            <a href="./plans.php<?= $langURLGet ?>#plan_1">
+                <div class="combo-img mb-3" id="combo-img-4"></div>
+            </a>
             <h4><?= $content->home['h4_3'] ?></h4>
             <p><?= $content->home['p2_3'] ?></p>
         </div>
         <div class="col-md-3">
-            <div class="combo-img mb-3" id="combo-img-4"></div>
+            <a href="./plans.php<?= $langURLGet ?>#plan_3">
+                <div class="combo-img mb-3" id="combo-img-3"></div>
+            </a>
             <h4><?= $content->home['h4_4'] ?></h4>
             <p><?= $content->home['p2_4'] ?></p>
         </div>
 
         <div class="col-md-12">
-            <a href="./plans.php<?= $langURLGet ?>" class="btn btn-primary"><?= $content->home['btn_1'] ?></a>
+            <a href="./plans.php<?= $langURLGet ?>" class="btn btn-warning btn-lg"><?= $content->home['btn_1'] ?></a>
         </div>
     </div>
 </div>

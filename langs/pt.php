@@ -64,9 +64,79 @@ class content_pt
             ],
         ];
 
-        $this->plans = [];
+        $this->plans = [
+            'plan_1' => [
+                'title'=> 'AULA INDIVIDUAL',
+                'text' => 'Esta é a melhor solução para pessoas que gostam de aprender em particular. No seu próprio ritmo e adequado a necessidades específicas inclui:',
+                'content' =>[
+                    'Manual com áudio e exercícios para cada nível.',
+                    'Aulas dinâmicas personalizadas (online ou física).',
+                    'Material personalizado.',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional por níveis.',
+                ],
+            ],
+            'plan_2' => [
+                'title'=> 'AULA GRUPAL',
+                'text' => 'Um plano feito para pessoas que gostam de personalização, mas que podem compartilhar seu aprendizado com outras pessoas e conquistas com outras. (1-6) Pessoas máximo.',
+                'content' => [
+                    'Manual com áudio e exercícios para cada nível.',
+                    'Aulas dinâmicas personalizadas (online ou física).',
+                    'Material personalizado.',
+                    'Assistencia Online personalizada instantanêa (Prática e Dúvidas).',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional por níveis.',
+                ],
+            ],
 
-        $this->promotions = [];
+            'plan_3' => [
+                'title'=> 'AULAS DE PRÁTICA',
+                'text' => 'Ideal para pessoas que aprenderam há muito tempo a querer melhorar seu espanhol naturalmente.',
+                'content' => [
+                    'Conversas com nativos.',
+                    'Assistencia Online personalizada instantanea (Prática e Dúvidas).',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional.',
+                ],
+            ],
+            'plan_4' => [
+                'title'=> 'EMPRESARIAL',
+                'text' => '',
+                'content' => [
+                    'Vocabulário Próprio do seu setor.',
+                    'Domínio de texto técnico.',
+                    'Escrever cartas e e-mails técnicos.',
+                    'Negociação e debate.',
+                    'Conhecer normas sociais e aduaneiras nos países latinos.',
+                    'Certificação Nacional e Internacional.',
+                ],
+            ],
+        ];
+
+        $this->promotions = [
+            'promotion_1' => [
+                'text' => 'Sempre dando o melhor para você com as opções mais adequadas sala de aula em grupo no máximo 3-6 alunos com um tempo de 2 horas por semana, o custo a ser pago é por mês e inclui:' ,
+                'content' => [
+                    'Manual de exercícios e áudios para cada nível, desde o nível básico(A1) ao avançado(C2).',
+                    'Aulas dinâmicas personalizadas (online).',
+                    'Material personalizado.',
+                    'Assistencia Online personalizada instantanêa (Via Whatsapp ou outras redes sociais).',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional por níveis.',
+                ],
+            ],
+            'promotion_2' => [
+                'text' => 'Você gostaria de aprender espanhol e portugués exclusivamente?. Temos essa opção para você !! Aproveite esta oportunidade para aprender rápidamente a segunda língua mais falada no mundo.' ,
+                'content' => [
+                    'Manual de exercícios e áudios para cada nível, desde o nível básico(A1) ao avançado(C2).',
+                    'Aulas dinâmicas personalizadas (online).',
+                    'Material personalizado.',
+                    'Assistência Online personalizada instantánea (Via Whatsapp ou outras redes sociais).',
+                    'Professores nativos.',
+                    'Certificação Nacional e Internacional por níveis.',
+                ],
+            ]
+        ];
 
         $this->contacts = [];
 
