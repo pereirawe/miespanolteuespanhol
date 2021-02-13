@@ -22,7 +22,7 @@
     <meta name="twitter:description" content="<?= $content->description ?>"/>
     <meta name="twitter:title" content="<?= $content->title ?>"/>
 
-    <meta name="keywords" content=""/>
+    <meta name="keywords" content="idiomas, espanhol, español, portugues, aprender espanhol, aprender español, aulas portuges, clases portugues, instituto de idiomas, instituto de espanhol, instituto de español, instituto de portugues, clases de idiomas,"/>
 
     <meta property="og:image" content="https://miespanolteuespanhol.com/images/logo500x500.jpg#T67sDMFGFX"/>
     <meta name="twitter:domain" content="<?= $content->title ?>"/>
