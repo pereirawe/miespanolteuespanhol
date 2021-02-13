@@ -38,6 +38,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css#T67sDMFGFX">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7Z2SS8TYE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-J7Z2SS8TYE');
+    </script>
+
 </head>
 <body ng-app="collagenelixir4uApp" ng-controller="collagenelixir4uController as collagenelixir4u">
 
