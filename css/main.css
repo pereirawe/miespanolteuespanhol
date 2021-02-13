@@ -18,6 +18,10 @@ body {
   color: #303030;
 }
 
+#header a:hover {
+  text-decoration: none;
+}
+
 #navbar {
   background-color: #061018;
 }
