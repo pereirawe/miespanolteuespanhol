@@ -24,9 +24,9 @@
 
     <meta name="keywords" content="idiomas, espanhol, español, portugues, aprender espanhol, aprender español, aulas portuges, clases portugues, instituto de idiomas, instituto de espanhol, instituto de español, instituto de portugues, clases de idiomas, idiomas, curso de espanhol, curso de portugues, aprender, portugais, portuguese, Brasil, ensino"/>
 
-    <meta property="og:image" content="https://miespanolteuespanhol.com/images/logo500x500.jpg#T67sDMFGFX"/>
+    <meta property="og:image" content="https://miespanolteuespanhol.com/images/logo500x500.jpg#waC4FFZSVA"/>
     <meta name="twitter:domain" content="<?= $content->title ?>"/>
-    <meta name="twitter:image" content="https://miespanolteuespanhol.com/images/logo500x500.jpg#T67sDMFGFX"/>
+    <meta name="twitter:image" content="https://miespanolteuespanhol.com/images/logo500x500.jpg#waC4FFZSVA"/>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -36,7 +36,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.css#T67sDMFGFX">
+    <link rel="stylesheet" href="./css/main.css#waC4FFZSVA">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7Z2SS8TYE"></script>
